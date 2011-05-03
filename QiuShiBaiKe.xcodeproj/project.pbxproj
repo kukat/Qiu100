@@ -41,18 +41,18 @@
 		FA9A7B4213703A0A002B1836 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA9A7B4413703A0A002B1836 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		FA9A7B4613703A0A002B1836 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		FA9A7B4A13703A0A002B1836 /* QiuShiBaiKe-Info.plist */ = {isa = PBXFileReference; path = "QiuShiBaiKe-Info.plist"; sourceTree = "<group>"; };
+		FA9A7B4A13703A0A002B1836 /* QiuShiBaiKe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QiuShiBaiKe-Info.plist"; sourceTree = "<group>"; };
 		FA9A7B4C13703A0A002B1836 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FA9A7B4E13703A0A002B1836 /* QiuShiBaiKe-Prefix.pch */ = {isa = PBXFileReference; path = "QiuShiBaiKe-Prefix.pch"; sourceTree = "<group>"; };
+		FA9A7B4E13703A0A002B1836 /* QiuShiBaiKe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QiuShiBaiKe-Prefix.pch"; sourceTree = "<group>"; };
 		FA9A7B4F13703A0A002B1836 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FA9A7B5113703A0A002B1836 /* QiuShiBaiKeAppDelegate.h */ = {isa = PBXFileReference; path = QiuShiBaiKeAppDelegate.h; sourceTree = "<group>"; };
+		FA9A7B5113703A0A002B1836 /* QiuShiBaiKeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiuShiBaiKeAppDelegate.h; sourceTree = "<group>"; };
 		FA9A7B5213703A0A002B1836 /* QiuShiBaiKeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiuShiBaiKeAppDelegate.m; sourceTree = "<group>"; };
 		FA9A7B5513703A0A002B1836 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		FA9A7B5813703A0A002B1836 /* QiuShiBaiKe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QiuShiBaiKe.xcdatamodel; sourceTree = "<group>"; };
 		FA9A7B5F13703A0B002B1836 /* QiuShiBaiKeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiuShiBaiKeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA9A7B6813703A0B002B1836 /* QiuShiBaiKeTests-Info.plist */ = {isa = PBXFileReference; path = "QiuShiBaiKeTests-Info.plist"; sourceTree = "<group>"; };
+		FA9A7B6813703A0B002B1836 /* QiuShiBaiKeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QiuShiBaiKeTests-Info.plist"; sourceTree = "<group>"; };
 		FA9A7B6A13703A0B002B1836 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FA9A7B6C13703A0B002B1836 /* QiuShiBaiKeTests-Prefix.pch */ = {isa = PBXFileReference; path = "QiuShiBaiKeTests-Prefix.pch"; sourceTree = "<group>"; };
+		FA9A7B6C13703A0B002B1836 /* QiuShiBaiKeTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QiuShiBaiKeTests-Prefix.pch"; sourceTree = "<group>"; };
 		FA9A7B6D13703A0B002B1836 /* QiuShiBaiKeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiuShiBaiKeTests.h; sourceTree = "<group>"; };
 		FA9A7B6F13703A0B002B1836 /* QiuShiBaiKeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiuShiBaiKeTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
