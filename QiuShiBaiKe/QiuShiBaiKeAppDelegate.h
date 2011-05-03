@@ -8,11 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class CLSplitCascadeViewController;
+
 @interface QiuShiBaiKeAppDelegate : NSObject <UIApplicationDelegate> {
 
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet CLSplitCascadeViewController *viewController;
 
 @property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
