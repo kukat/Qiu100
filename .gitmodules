@@ -1,0 +1,3 @@
+[submodule "CLCascade"]
+	path = CLCascade
+	url = https://github.com/creativelabs/CLCascade.git
