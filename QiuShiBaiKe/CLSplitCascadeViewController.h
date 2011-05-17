@@ -15,9 +15,13 @@
 @interface CLSplitCascadeViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
     CLCategoriesView* _categoriesView;
     CLCascadeContentNavigator* _cascadeNavigator;
+    
+    NSArray *category;
 }
 
 @property (nonatomic, retain) IBOutlet CLCategoriesView* categoriesView;
 @property (nonatomic, retain) IBOutlet CLCascadeContentNavigator* cascadeNavigator;
+
+@property (nonatomic, retain) NSArray *category;
 
 @end

@@ -35,6 +35,9 @@
 		FA9A7BDF13704ABC002B1836 /* CLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9A7BD513704ABC002B1836 /* CLViewController.m */; };
 		FA9A7BE213704AD0002B1836 /* CLSplitCascadeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA9A7BE113704AD0002B1836 /* CLSplitCascadeViewController.xib */; };
 		FA9A7BEB13704C4B002B1836 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9A7BEA13704C4B002B1836 /* QuartzCore.framework */; };
+		FACD3BDA1370518E00F218D2 /* Category.plist in Resources */ = {isa = PBXBuildFile; fileRef = FACD3BD91370518E00F218D2 /* Category.plist */; };
+		FACD3BE3137055A000F218D2 /* QiushiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD3BE2137055A000F218D2 /* QiushiTableViewController.m */; };
+		FACD3BEE1370697A00F218D2 /* Qiushi.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD3BED1370697A00F218D2 /* Qiushi.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +92,11 @@
 		FA9A7BD513704ABC002B1836 /* CLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLViewController.m; sourceTree = "<group>"; };
 		FA9A7BE113704AD0002B1836 /* CLSplitCascadeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLSplitCascadeViewController.xib; sourceTree = "<group>"; };
 		FA9A7BEA13704C4B002B1836 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FACD3BD91370518E00F218D2 /* Category.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Category.plist; sourceTree = "<group>"; };
+		FACD3BE11370559F00F218D2 /* QiushiTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiushiTableViewController.h; sourceTree = "<group>"; };
+		FACD3BE2137055A000F218D2 /* QiushiTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiushiTableViewController.m; sourceTree = "<group>"; };
+		FACD3BEC1370697900F218D2 /* Qiushi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Qiushi.h; sourceTree = "<group>"; };
+		FACD3BED1370697A00F218D2 /* Qiushi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Qiushi.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +164,10 @@
 				FA9A7B5213703A0A002B1836 /* QiuShiBaiKeAppDelegate.m */,
 				FA9A7B5413703A0A002B1836 /* MainWindow.xib */,
 				FA9A7B5713703A0A002B1836 /* QiuShiBaiKe.xcdatamodeld */,
+				FACD3BE11370559F00F218D2 /* QiushiTableViewController.h */,
+				FACD3BE2137055A000F218D2 /* QiushiTableViewController.m */,
+				FACD3BEC1370697900F218D2 /* Qiushi.h */,
+				FACD3BED1370697A00F218D2 /* Qiushi.m */,
 				FA9A7BE913704B93002B1836 /* Cascade */,
 				FA9A7B4913703A0A002B1836 /* Supporting Files */,
 			);
@@ -169,6 +181,7 @@
 				FA9A7B4B13703A0A002B1836 /* InfoPlist.strings */,
 				FA9A7B4E13703A0A002B1836 /* QiuShiBaiKe-Prefix.pch */,
 				FA9A7B4F13703A0A002B1836 /* main.m */,
+				FACD3BD91370518E00F218D2 /* Category.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -342,6 +355,7 @@
 				FA9A7B4D13703A0A002B1836 /* InfoPlist.strings in Resources */,
 				FA9A7B5613703A0A002B1836 /* MainWindow.xib in Resources */,
 				FA9A7BE213704AD0002B1836 /* CLSplitCascadeViewController.xib in Resources */,
+				FACD3BDA1370518E00F218D2 /* Category.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +404,8 @@
 				FA9A7BDD13704ABC002B1836 /* CLSplitCascadeViewController.m in Sources */,
 				FA9A7BDE13704ABC002B1836 /* CLTableViewController.m in Sources */,
 				FA9A7BDF13704ABC002B1836 /* CLViewController.m in Sources */,
+				FACD3BE3137055A000F218D2 /* QiushiTableViewController.m in Sources */,
+				FACD3BEE1370697A00F218D2 /* Qiushi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,4 +610,3 @@
 	};
 	rootObject = FA9A7B3313703A0A002B1836 /* Project object */;
 }
-

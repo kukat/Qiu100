@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>title</key>
+            <string>8小时最糗</string>
+            <key>f</key>
+            <string></string>
+        </dict>
+        <dict>
+            <key>title</key>
+            <string>今日最糗</string>
+            <key>f</key>
+            <string>d</string>
+        </dict>
+        <dict>
+            <key>title</key>
+            <string>有图有真相</string>
+            <key>f</key>
+            <string>p</string>
+        </dict>
+        <dict>
+            <key>title</key>
+            <string>最新糗事</string>
+            <key>f</key>
+            <string>l</string>
+        </dict>
+    </array>
+</plist>
+
